@@ -1,0 +1,8 @@
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\bin\Debug\UniversalType.dll
+d:\Projects\UniversalType\src\Tests\ConsoleApplication1\bin\Debug\UniversalType.pdb

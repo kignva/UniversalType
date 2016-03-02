@@ -1,0 +1,5 @@
+D:\Projects\UniversalType\src\UniversalType\bin\Debug\UniversalType.dll
+D:\Projects\UniversalType\src\UniversalType\bin\Debug\UniversalType.pdb
+D:\Projects\UniversalType\src\UniversalType\obj\Debug\UniversalType.csprojResolveAssemblyReference.cache
+D:\Projects\UniversalType\src\UniversalType\obj\Debug\UniversalType.dll
+D:\Projects\UniversalType\src\UniversalType\obj\Debug\UniversalType.pdb
