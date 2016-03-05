@@ -10,13 +10,18 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             var ut = new Universal()
-                .AddOrUpdateProperty("id", 1)
-                .AddOrUpdateProperty("class", "table")
-                .AddOrUpdateProperty("style", "width: 1px;")
-                .AddOrUpdateProperty("array", new[] {1,2,3,4,5})
-                .AddOrUpdateProperty("type", new Universal().AddOrUpdateProperty("data", 1.22m));
+                .SetProperty("id", 1)
+                .SetProperty("class", "table")
+                .SetProperty("style", "width: 1px;")
+                .SetProperty("array", new[] {1,2,3,4,5})
+                .SetProperty("array2", new[] { 1.3, 2.0, 3, 4.7, 5 })
+                .SetProperty("type", 
+                    new Universal("data", 1.22m)
+                    .SetProperty("obj", new Universal("prop",1))
+                    );
 
             Console.WriteLine(ut);
+            Console.WriteLine(ut.ToJson());
 
             var arr = ut["array"];
 
@@ -25,9 +30,9 @@ namespace ConsoleApplication1
             for (int i = 0; i < 100000; i++)
             {
                 Universal u = new Universal()
-                    .AddOrUpdateProperty("id", 1)
-                .AddOrUpdateProperty("class", "table")
-                .AddOrUpdateProperty("style", "width: 1px;");
+                    .SetProperty("id", 1)
+                .SetProperty("class", "table")
+                .SetProperty("style", "width: 1px;");
                 //Object u = new Object();
                 //DateTimeOffset u = DateTimeOffset.Now;
                 //Console.WriteLine(u);
